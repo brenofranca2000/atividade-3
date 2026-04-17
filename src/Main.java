@@ -6,5 +6,10 @@ public class Main {
 
         Pedido pedido = new Pedido(cliente);
 
+        pedido.adicionarItem(new ItemPedido("Mouse", 2, 50.0));
+        pedido.adicionarItem(new ItemPedido("Teclado", 1, 150.0));
+        pedido.adicionarItem(new ItemPedido("Monitor", 1, 300.0));
 
+        pedido.fecharPedido();
+    }
 }

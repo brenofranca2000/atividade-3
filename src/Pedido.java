@@ -46,3 +46,10 @@ public class Pedido {
                     " | Preço: R$ " + item.getPrecoUnitario() +
                     " | Subtotal: R$ " + item.calcularSubtotal());
         }
+
+        System.out.println("------------------------");
+        System.out.println("Total dos itens: R$ " + total);
+        System.out.println("Frete: R$ " + frete);
+        System.out.println("Total final: R$ " + totalFinal);
+    }
+}

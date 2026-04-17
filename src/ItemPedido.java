@@ -10,3 +10,19 @@ public class ItemPedido {
         this.precoUnitario = precoUnitario;
     }
 
+    public double calcularSubtotal() {
+        return quantidade * precoUnitario;
+    }
+
+    public String getNomeProduto() {
+        return nomeProduto;
+    }
+
+    public int getQuantidade() {
+        return quantidade;
+    }
+
+    public double getPrecoUnitario() {
+        return precoUnitario;
+    }
+}
